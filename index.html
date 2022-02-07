@@ -1,0 +1,13 @@
+<script src="https://api-maps.yandex.ru/2.1?apikey=f0d552bd-c2b1-4b55-bb80-446891086e2b&load=package.full&lang=ru_RU">
+</script>
+<script type="text/javascript">
+  ymaps.ready(function () {
+    var myMap = new ymaps.Map("YMapsID", {
+      center: [53.135761, 47.662305],
+      zoom: 15.15
+    });
+  });
+</script>
+
+// Формирование div-контейнер карты.
+<div id="YMapsID" style="width: 450px; height: 350px;"></div>
