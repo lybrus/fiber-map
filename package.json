@@ -1,0 +1,12 @@
+{
+  "name": "fiber-map",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lybrus/fiber-map.git",
+  "author": "Damir Rashidov <damir@rashidov.eu>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
